@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-div{
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: space-between;
+justify-content: space-around;
+background-color: cornflowerblue;
+flex-direction: column;
+}
+.first-div{
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+input[type= text]{
+outline: none;
+padding: 5px;
+margin-bottom: 10px;
+}
+
